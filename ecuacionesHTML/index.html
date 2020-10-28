@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>                            <!-- Esta es la parte no visible -->
+  <meta charset="utf-8">
+  <title>Ecuaciones de Segundo Grado</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" type="text/css" href="styles/estilo.css">
+</head>
+
+<body>
+
+<!--Este es el contenito visible del docuemnto-->
+    <center>
+    <div class="contenedor">
+        <section>
+            <h1>Ecuaciones de Segundo Grado</h1>
+             <HR align= "CENTER" size="10px" width="250" color:" #000000" >
+             <h2>Aqui podras resolver tus ecuaciones</h2>
+
+            <p>Las ecuaciones de segundo grado son de la forma ax^2 + bx + c = 0; donde a, b y c son números reales (que no son cero); donde x se llama variable o incógnita; a y b se llaman coeficientes de las incógnitas y c recibe el nombre de término independiente. Es muy importante reconocer las formas estandarizadas que surgen de una clasificación de ecuaciones de segundo grado, llamadas también ecuaciones cuadráticas.<br
+          </section>
+
+
+          <h5>FORMULA:</h5>
+          <img src="images\\ecuaciones.jpg"  width="200px" height:"70px">
+
+           <h6>Ejemplo</h6>
+         <img src="images\\ejemplo.jpg"  width="200px" height:"70px">
+
+       <div class= "form-group">
+       <h6>Ingresa tu ecuacion:</h6>
+              <label style="color: #000000">Ingresa a</label>
+              <input type= "number" class= "form-group" id="a"  placeholder=" x^2" > <br>
+              <label style="color: #000000">Ingresa b</label>
+              <input type= "number" class= "form-group" id="b"  placeholder="x"> <br>
+              <label style="color: #000000">Ingresa c</label>
+              <input type= "number" class= "form-group" id="c"  placeholder="nmero"> <br>
+
+
+             </div>
+        <div class="submit">
+                 <button onclick="calculaNumero()" style="color:black">Obtener tu número</button>
+
+        </div>
+         <h4 id="resultado"></h4>
+
+
+
+    </div>
+
+
+           </section>
+
+      </center>
+</body>
+ <script src="scripts/funciones.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> <!– Importante llamar antes a jQuery para que funcione bootstrap.min.js   –>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> <!– Llamamos al JavaScript  a través de CDN –>
+</html>
